@@ -1,0 +1,185 @@
+sudo yum update
+sudo yum install git
+sudo sentenforce 0
+sudo setenforce 0
+sudo sestatus
+cd /etc
+ls
+mkdir chef
+sudo mkdir chef
+ls
+sudo yum install wget
+clear
+sudo git copy https://github.com/chef/chef.git
+sudo git clone https://github.com/chef/chef.git
+git config --global user.name "eliza jena"
+git config --global user.email "elizajena76@gmail.com"
+wget install https://github.com/chef/chef/tree/master/.bundle
+sudo wget install https://github.com/chef/chef/tree/master/.bundle
+ls
+cd chef
+ls
+sudo wget install https://github.com/chef/chef/blob/master/Rakefile
+rm -rf chef
+ls
+git clone https://github.com/chef/chef.git
+sudo git clone https://github.com/chef/chef.git
+ls
+cd chef
+ls
+cd chef
+ls
+clear
+sudo wget install https://github.com/chef/chef/tree/master/.bundle
+sudo wget install https://github.com/chef/chef/blob/master/Rakefile
+sudo gem install pkg/chef-VERSION.gem
+sudo yum install ruby ruby-devel rubygems wget gcc gcc-c++ kernel-devel make
+sudo gem update --system
+sudo yum install gcc-c++ patch readline readline-devel zlib zlib-deve
+sudo yum install libyaml-devel libffi-devel openssl-devel make 
+sudo yum install bzip2 autoconf automake libtool bison iconv-devel
+sudo curl -L get.rvm.io | bash -s stable
+sudo source /etc/profile.d/rvm.sh
+source /etc/profile.d/rvm.sh
+sudo rvm install 1.9.3   
+sudo wget  install 1.9.3   
+ruby -version
+sudo wget use 2.3.1 –default
+ruby -version
+sudo wget use 2.3.1 –default
+sudo yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel 
+ls
+curl -L get.rvm.io | bash -s stable
+history
+curl -L get.rvm.io | bash -s stable
+gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -L get.rvm.io | bash -s stable
+source /home/elizajena76/.rvm/scripts/rvm
+rvm
+sudo curl -L get.rvm.io | bash -s stable
+source /etc/profile.d/rvm.sh
+sudo source /etc/profile.d/rvm.sh
+rvm install 2.3.1
+ruby -version
+sudo rvm rubygems current
+sudo yum install rubygems
+ls
+clear
+sudo gem update
+sudo gem update --system
+sudo gem update
+ruby -version
+clear
+sudo bundle install
+sudo gem install bundler
+sudo bundle exec rake gem
+sudo gem install pkg/chef-VERSION.gem
+cd/ etc/ chef
+cd etc
+cd chef
+cd ..
+cd/ home
+ls
+cd elizajena76
+ls
+wget-log
+cd /etc/chef
+ls
+ruby -version
+sudo wget https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-server-11.0.12-1.el6.x86_64.rpm
+sudo yum localinstall chef-server-core-12.0.2-1.x86_64.rpm
+sudo chef-server-ctl reconfigure
+clear
+chef -version
+chef --version
+clear
+chef -version
+cd/ etc/ chef
+cd /etc
+ls
+cd chef
+ls
+ruby
+cd /etc/chef
+ls
+cd chef
+ls
+clear
+sudo git config --global user.email "elizajena76@gmail.com"
+sudo git config --global username "Elizajena" 
+sudo git init
+sudo git status
+cd /etc/chef
+ls
+history
+sudo git status
+history > history_for_print.txt
+sudo history > history_for_print.txt
+sudo history_for_print.txt
+sudo history -c < history
+sudo history -c > history_for_print.txt
+sudo su
+history
+history -w ~/history.txt
+git status
+sudo git status
+sudo git init
+sudo git status
+sudo git add *
+sudo git clone https://github.com/Elizajena/chefuncle.git
+sudo git remote add origin https://github.com/Elizajena/chefuncle.git
+ls
+sudo git push -u origin master
+sudo git remote -v
+sudo git commit -m "firstcommit"
+sudo git push -u origin master
+sudo git status
+history
+history -w ~/history.txt
+sudo git status
+sudo git add *
+sudo git status
+sudo git commit -m "commit"
+sudo git push -u origin master
+sudo git config --global user.email"elizajena76@gmail.com"
+git config --global username "Elizajena"
+sudo git config --global username "Elizajena"
+sudo git config --global user.email"elizajena76@gmail.com"
+sudo git config --global username "Elizajena"
+clear
+cd /etc/chef
+sudo git config --global user.email"elizajena76@gmail.com"
+sudo git config --global username "Elizajena"
+ls
+ruby -version
+cd chef
+ls
+cd chef-config
+ls
+clear
+sudo git config --global user.email "elizajena76@gmail.com"
+sudo git config --global usernamel "Elizajena"
+sudo git config --global username "Elizajena"
+sudo git config --global user.name "Elizajena"
+sudo git config --global user.email "elizajena76@gmail.com"
+sudo git status
+sudo git add
+git add
+sudo git add
+sudo git init
+cd /etc/chef
+ls
+cd chef
+ls
+sudo git config --global user.name "Elizajena"
+sudo git config --global user.email "elizajena76@gmail.com"
+sudo git init
+git add *
+sudo git add *
+sudo git status
+sudo git config --global user.name "Elizajena"
+sudo git config --global user.email "elizajena76@gmail.com"
+sudo git init
+sudo git add *
+sudo git status
+history -w ~/history.txt
