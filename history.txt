@@ -1,0 +1,145 @@
+cd /
+ls
+cd home
+ls
+cd ..
+cd etc
+ls
+sudo su
+hostname -f
+sudo nano /etc/hosts
+cd etc/hosts
+cd /etc/hosts
+cd /
+ls
+cd etc
+ls
+cd hosts
+vi hosts
+mkdir chef
+sudo mkdir chef
+ls
+cd chef
+ls
+sudo wget https://packages.chef.io/files/stable/chef-server/12.11.1/el/7/chef-server-core-12.11.1-1.el7.x86_64.rpm
+sudo rpm -ivh chef-server-core-*.rpm
+sudo chef-server-ctl reconfigure
+sudo sudo chef-server-ctl status
+history
+hostname -f
+sudo cat /etc/hosts
+chef verify
+sudo chef verify
+sudo su -
+pwd
+sudo chef-server-ctl user-create elizajena eliza jena elizajena76@gmail.com password --filename /home/elizajena76/elizajena.pem
+ls -ltr
+cat elizajena.pem
+pwd
+ls -ltr
+cd /etc/chef
+sudo chef-server-ctl org-create elizacorp Eliza-Corporation --association_user elizajena -f elizacorp-validator.pem
+ls 
+cat elizacorp-validator.pem
+sudo yum install git
+pwd
+cd ~
+pwd
+git clone https://github.com/chef/chef-repo.git
+ls -ltr
+git config --global user.name "Eliza Jena"
+git config --global user.email "elizajena76@gmail.com"
+ech gopal
+echo gopal
+echo eliza
+echo ".chef"
+echo ".chef" >> ~/chef-repo/.gitignore
+cd chef-repo
+ls
+ls -ltra
+cat .gitignore
+git add.
+pwd
+git add .
+man git 
+clear
+git commit
+git commit -m "Excluding the ./.chef directory from version control"
+cd /etc
+cd /home
+pwd
+ls
+cd ~
+pwd
+wget  https://packages.chef.io/files/stable/chefdk/1.1.16/el/7/chefdk-1.1.16-1.el7.x86_64.rpm
+sudo rpm -ivh chefdk-1.1.16-1.el7.x86_64.rpm 
+chef verify
+man eval
+echo $SHELL
+chef shell-init bash
+echo 'eval "$(chef shell-init bash)"' 
+echo 'eval "$(chef shell-init bash)"' >> ~/.bash_profile
+cat ~/.bash_profile
+env
+source ~/.bash_profile
+env
+mkdir ~/chef-repo/.chef
+sudo cp /home/elizajena/elizajena.pem ~/chef-repo/.chef/
+sudo cp /home/elizajena76/elizajena.pem ~/chef-repo/.chef/
+sudo cp /etc/chef/elizacorp-validator.pem ~/chef-repo/.chef/
+sudo chown eliza76 ~/chef-repo/.chef/* 
+sudo chown elizajena76:elizajena76 ~/chef-repo/.chef/* 
+ls -ltr ~/chef-repo/.chef/*
+hostname
+hostname -f
+vi ~/chef-repo/.chef/knife.rb
+cd ~chef-repo
+cd ~/chef-repo
+knife client list
+knife ssl fetch
+knife client list
+ls -ltr
+cd .chef/
+ls -ltr
+vi knife.rb 
+ls -ltr /home/elizajena76/elizajena.pem 
+s -ltr elizajena.pem 
+ls -ltr elizajena.pem 
+cat elizajena.pem 
+cat /home/elizajena76/elizajena.pem 
+ls -ltr
+vi knife.rb 
+cd ../
+ls -ltr
+knife client list
+cd .chef/
+ls -ltr
+vi knife.rb 
+cd ../
+ls -ltr
+knife client list
+exit
+~/chef-repo/
+cd ~/chef-repo/
+ls
+ls -ltra
+cd ..
+cd ~/chef-repo
+knife client list
+ls -ltr
+cd .ssh/
+ls -ltr
+cat authorized_keys 
+vi authorized_keys 
+ssh elizajena76@chefclient
+exit
+cd ~/chef-repo
+knife bootstrap < chefclient.c.poshtube-979.internal >  -x elizajena76 --sudo
+knife bootstrap chefclient.c.poshtube-979.internal  -x elizajena76 --sudo
+knife client list
+knife node list
+history -w /home/elizajena76/
+cd /home/elizajena76/
+ls
+cd /home/elizajena76/history.txt
+history -w ~/history.txt
