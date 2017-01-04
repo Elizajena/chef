@@ -133,6 +133,135 @@ cat authorized_keys
 vi authorized_keys 
 ssh elizajena76@chefclient
 exit
+cd ~/chef-repo/.chef/knife.rb
+cd  /home/elizajena76/chef-repo/.chef
+ls 
+vi knife.rb
+cd ..
+ssh elizajena76@10.140.0.4
+cd /
+ls
+cd root
+sudo cd root
+ls
+cd /root
+sudo cd /root
+ls
+sudo cd root
+ls
+cd ..
+sudo cd /root
+sudo mkdir .ssh
+chmod 700 .ssh
+sudo chmod 700 .ssh
+sudo cd /root
+ls
+ls -ltr
+ cd /root/.ssh
+sudo  cd /root/.ssh
+sudo cd /root/.ssh
+ls
+cd root
+sudo cd root
+ls
+sudo mkdir .ssh
+sudo cd/root/.ssh
+cd /
+ls
+cd home
+ls
+cd elizajena76
+ls
+cd /root
+sudo cd /root
+ls
+cd ..
+cd /
+ls
+cd root
+sudo cd root
+ls
+sudo mkdir .ssh
+sudo su
+mkdir .ssh
+cd /root
+sudo cd /root
+ls
+sudo cd /root
+sudo su
+mkdir .ssh
+ls
+cd etc/
+ls
+cd ..
+cd /home/elizajena76
+ls
+mkdir .ssh
+cd chef-repo
+ls -ltr
+find /home/elizajena76/ -name "*.ssh*"
+vi /home/elizajena76/.ssh
+sudo cd /home/elizajena76/.ssh
+sudo cd /home/elizajena76
+cd ..
+cd /home/elizajena76/
+sudo chmod 700 .ssh
+sudo ssh-keygen -t rsa
+sudo cat id_rsa.pub >> authorized_keys
+sudo cd /root/.ssh
+ls
+vi authorized_keys 
+sudo vi /root/.ssh/id_rsa
+sudo vi /root/.ssh/id_rsa.pub
+vi authorized_keys 
+sudo vi /root/.ssh/id_rsa.pub
+vi authorized_keys
+ssh elizajena76@10.140.0.4
+vi authorized_keys 
+chmod 600 authorized_keys 
+ls -ltr
+ssh elizajena76@10.140.0.4
+ssh elizajena76@104.199.205.199
+ssh -vvv chefclient
+hostname
+ssh elizajena76@chefclient
+sudo cd /root/.ssh
+ls
+vi /root/.ssh
+rm -rf authorized_keys
+ls
+ls -a
+cd .ssh
+ls
+rm -rf known_hosts
+ls
+ls -a
+cd .
+rm -rf .ssh
+cd ..
+rm -rf .ssh
+ls -a
+mkdir .ssh
+ls -a
+chmod 700 .ssh
+ssh-keygen -t rsa
+ls -a
+cd .ssh/
+ls
+cat id_rsa.pub >> authorized_keys
+ls
+vi 
+vi authorized_keys 
+ssh elizajena76@10.140.0.3
+vi authorized_keys 
+ls
+rm -rf authorized_keys 
+ls
+cat id_rsa.pub >> authorized_keys
+ls
+vi authorized_keys 
+chmod 600 authorized_keys 
+ssh elizajena76@10.140.0.4
 cd ~/chef-repo
 knife bootstrap < chefclient.c.poshtube-979.internal >  -x elizajena76 --sudo
 knife bootstrap chefclient.c.poshtube-979.internal  -x elizajena76 --sudo
@@ -143,3 +272,88 @@ cd /home/elizajena76/
 ls
 cd /home/elizajena76/history.txt
 history -w ~/history.txt
+ls
+vi history.txt 
+git init
+git config --global user.email "elizajena76@gmail.com"
+git config --global user.name "Elizajena"
+git status
+git clone https://github.com/Elizajena/chefuncle.git
+git remote add origin https://github.com/Elizajena/chefuncle.git
+git remote -v
+git pull -u origin master
+gti status
+git status
+git add history.txt 
+git push -u origin master
+git status
+git add
+git add history.txt
+git commit -m "firstcommit"
+git push -u origin master
+cd chef-repo/chef
+ls
+ld chef-repo
+vi ~/chef-repo/.chef/knife.rb
+cd ~/chef-repo/
+knife cookbook create my-cook-book
+cd cookbooks/my-cook-book/
+cd cookbook/my-cook-book/
+cd cookbooks/my-cook-book/
+cd cookbooks/my-cook-book
+cd /home/elizajena76/chef-repo/cookbooks
+ls
+cd my-cook-book/
+ls
+cd recipes
+ls
+vi default.rb 
+cat default.rb 
+vi default.rb 
+knife cookbook upload my-cook-book
+knife node run_list add elizajena "recipe[my-cook-book]"
+vi ~/chef-repo/.chef/knife.rb
+knife node run_list add elizajena recipe[my-cook-book]
+chef-client
+knife node run_list add Chef encountered an error attempting to create the client "chefserver.c.poshtube-979.internal" recipe[my-cook-book]
+knife node run_list add Chef encountered an error attempting to create the client "chefclient.c.poshtube-979.internal" recipe[my-cook-book]
+cd ~/home/elizajena76/chef-repo/
+cd /home/elizajena76/chef-repo/
+ls
+cd /home/elizajena76/.ssh
+ls
+cd /home/usr
+cd /home
+ls
+cd elizajena76/
+ls
+cd /
+ls
+cd usr
+ls
+cd /etc/chef
+ls
+ln -s elizacorp-validator.pem elizacorp-validation.pem
+ssh elizajena76@10.140.0.3
+ssh elizajena76@10.140.0.4
+knife node run_list add elizajena "recipe[my-cook-book]"
+ssh elizajena76@10.140.0.4
+% knife client list
+cd .chef
+ls
+vi trusted_certs/
+cd /home/elizajena76/
+ls
+ls-a
+ls -a
+history > /home/elizajena76/history.txt
+history >> /home/elizajena76/history.txt
+vi history.txt 
+history
+history > ~/home
+ls
+vi home
+rm -rf home
+ls
+cd /home/elizajena76/
+history -w /home/elizajena76/history.txt
